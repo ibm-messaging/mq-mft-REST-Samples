@@ -5,7 +5,7 @@
 2. GET Transfer Status
 
 
-## Steps to Configure and use the go lang sample to exercise the REST service.
+## Steps to Configure and use the golang sample 
 
 1. Install golanguage.
 
@@ -27,7 +27,7 @@ The above command will generate an executable by name mftRESTsampleApplication.e
 
 The above executable will accept hostName, portNumber and  serviceName (agent/transfer) as input arguments.
 
-##Example: 
+## Example: 
 
 1.) Execute the command with default value
 
