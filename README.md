@@ -37,6 +37,8 @@ mftRESTSampleApplication.exe
 
 mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer
 
+mftRESTsampleApplication.exe -host ibm609-pc09tkms.in.ibm.com -port 9080 -service agent
+
 3.) Execute the command by passing just required values
 
 mftRESTsampleApplication.exe -service transfer
