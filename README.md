@@ -1,6 +1,6 @@
 
 ## Sample application - for MFT REST service
-#  MFT V9.0.4  provides support for REST srvice as below .
+#  MFT V9.0.4  provides support for REST service as below .
 1. GET Agent Status
 2. GET Transfer Status
 
