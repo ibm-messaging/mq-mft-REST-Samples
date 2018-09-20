@@ -3,7 +3,7 @@
 IBM MQ MFT V9.0.5 support REST API service to query the details of Agent and Transfer.  
 This repository includs a sample application to demonstrates MFT REST service API written in the Go language.
 
-> **Pre-req**: 
+## Pre-req 
 
 1.) Please ensure that you MFT is installed.
 
