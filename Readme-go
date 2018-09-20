@@ -1,9 +1,8 @@
 # mq-mft-REST-golang-sample
 
-
 ## Compaling Sample ApplicationSteps to Configure and use the golang sample 
 
-```go build $GOPATH/src/github.com/ibm-messaging/mq-mft-REST-Samples/mftRESTsampleApplication.go'''
+```go build $GOPATH/src/github.com/ibm-messaging/mq-mft-REST-Samples/mftRESTsampleApplication.go```
 
 The above command will generate an executable by name mftRESTsampleApplication.exe.
 
@@ -17,9 +16,9 @@ The responsce will havea the details of agents in a  JSON array.
 
 The default attributes are  -
 
-```name''': Name of the agent. 
+```name```: Name of the agent. 
 
-```state''': Type of the agent. Value will be any of the following.
+```state```: Type of the agent. Value will be any of the following.
 
 •	standard   - non-Bridge agent
 
@@ -27,7 +26,8 @@ The default attributes are  -
 
 •	connectDirectBridge – Connect Direct Bridge type agent 
 
-```type''':
+```type```:
+
 •	active - Agent is running and is sending or receiving files. The agent is publishing its status at regular intervals. The last update was received within the expected time
 
 •	ready -Agent is running, but is not sending or receiving files. The agent is publishing its status at regular intervals. The last update was received within the expected time period.
@@ -49,15 +49,15 @@ The default attributes are  -
 
 ##Transfer REST Service
 
-```destinationAgent''' : Name of the destination agent.
+```destinationAgent``` : Name of the destination agent.
 
-```sourceAgent''' : Name of the source agent.
+```sourceAgent``` : Name of the source agent.
 
-```id''':  Transfer ID.
+```id```:  Transfer ID.
 
-```status''': Status of the transfer.
+```status```: Status of the transfer.
 
-```statistics''' : Statistical details about the transfer which includes the following -
+```statistics``` : Statistical details about the transfer which includes the following -
 
      • endTime
      
@@ -73,10 +73,10 @@ The default attributes are  -
      
      • startTime
 
-```Originator''': Details about the transfer source, which includes the following information.
+```Originator```: Details about the transfer source, which includes the following information.
      
      • host
-     •userId
+     • userId
 
 ## Options: 
 
@@ -84,7 +84,7 @@ The above executable will accept hostName, portNumber and  serviceName (agent/tr
 
 1.) An attempt to execute with out any optional value will take the 'localhost' and the port '9080' and execute the command.
 
-```mftRESTSampleApplication.exe '''
+```mftRESTSampleApplication.exe```
 
 > **NOTICE**: It is expected to work if the REST service is hosted in same server where exe is avaliable.  
 
@@ -94,18 +94,18 @@ The above executable will accept hostName, portNumber and  serviceName (agent/tr
 
 #Transfer Service
 
-```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer'''
+```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer```
 
 #Agent Service
 
-```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service agent'''
+```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service agent```
 
 ## Sample output: 
 
-```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer'''
+```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer```
 
 ====================================================================================
-
+```
 {"transfer": [
 
   {
@@ -183,13 +183,13 @@ The above executable will accept hostName, portNumber and  serviceName (agent/tr
  ]
 
 } 
-  
+```
   ====================================================================================
   
-  ```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer'''
+  ```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer```
 
 ====================================================================================
-
+```
 {"agent": [
 
   {
@@ -235,6 +235,5 @@ The above executable will accept hostName, portNumber and  serviceName (agent/tr
 ]
 
 }
-
-====================================================================================
+```
 ====================================================================================
