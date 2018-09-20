@@ -104,7 +104,7 @@ The above executable will accept hostName, portNumber and  serviceName (agent/tr
 
 ```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer```
 
-====================================================================================
+==============================================================
 ```
 {"transfer": [
 
@@ -184,11 +184,12 @@ The above executable will accept hostName, portNumber and  serviceName (agent/tr
 
 } 
 ```
-  ====================================================================================
+
+==============================================================
   
   ```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer```
 
-====================================================================================
+==============================================================
 ```
 {"agent": [
 
@@ -236,4 +237,4 @@ The above executable will accept hostName, portNumber and  serviceName (agent/tr
 
 }
 ```
-====================================================================================
+==============================================================
