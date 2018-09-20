@@ -5,11 +5,17 @@ This repository includs a sample application to demonstrates MFT REST service AP
 
 > **Pre-req**: 
 1.) Please ensure that you MFT is installed.
+
 ```https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_9.0.0/com.ibm.mq.helphome.v90.doc/WelcomePagev9r0.html```
+
 2.) Configure MFT REST service.
+
 ```https://developer.ibm.com/messaging/2018/03/19/mq-9-0-5-quick-start-mft-rest-apis/```
+
 3.) Follow the following to get more insight on AgentStatus and TransferStatus REST services.
+
 ```https://developer.ibm.com/messaging/2018/03/21/mqv9-0-5-mft-rest-api-agent-status-details/```
+
 ```https://developer.ibm.com/messaging/2018/03/29/mq-v9-0-5-mft-rest-api-transfer-status/```
 
 ## Getting started
