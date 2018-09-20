@@ -6,11 +6,11 @@
 
 The above command will generate an executable by name mftRESTsampleApplication.exe.
 
-##About sample application.
+## About sample application.
 
 This is a sample application to demonstrate the REST API services provided to check the agent and transfer status.
 
-##Agent REST Service
+## Agent REST Service
 
 The responsce will havea the details of agents in a  JSON array.
 
@@ -47,7 +47,7 @@ The default attributes are  -
 •	problem - Agent command handler might not be working. The agent is publishing status messages, but these status messages are out of date.
 
 
-##Transfer REST Service
+## Transfer REST Service
 
 ```destinationAgent``` : Name of the destination agent.
 
@@ -92,15 +92,15 @@ The above executable will accept hostName, portNumber and  serviceName (agent/tr
 
 2.) An attempt to execute the REST service  which is hosted on a different server.
 
-#Transfer Service
+# Transfer Service
 
 ```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer```
 
-#Agent Service
+# Agent Service
 
 ```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service agent```
 
-## Sample output: 
+## Sample output of Agent Service: 
 
 ```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer```
 
@@ -186,6 +186,8 @@ The above executable will accept hostName, portNumber and  serviceName (agent/tr
 ```
 
 ==============================================================
+  
+  ## Sample output of Transfer Service:
   
   ```mftRESTsampleApplication.exe -host 9.23.34.45 -port 8989 -service transfer```
 
